@@ -27,9 +27,21 @@
                 <div class="landing_content_link text-center">
                     <a class="landing_content_link_portfolio" href="#portfolio">Portfolio</a>
                 </div>
-                <div class="arrow-down"></div>
+                <div class="landing_content_arrow-down"></div>
             </div>
         </section>
+
+        <nav class="nav-container">
+            <a href="#home" class="logo nav-container_logo" data-scroll>Charline Miranda</a>
+            <nav class="nav-collapse nav-container_list">
+                <ul>
+                    <li class="nav-container_list menu-item active"><a href="#home" data-scroll>Home</a></li>
+                    <li class="nav-container_list menu-item"><a href="#portfolio" data-scroll>Portfolio</a></li>
+                    <li class="nav-container_list menu-item"><a href="#apropos" data-scroll>A Propos</a></li>
+                    <li class="nav-container_list menu-item"><a href="#contact" data-scroll>Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
     </div>
 <script src="dist/javascripts/scripts.js"></script>
 </body>
