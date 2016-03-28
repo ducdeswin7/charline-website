@@ -31,18 +31,43 @@
             </div>
         </section>
 
-        <nav class="nav-container">
-            <a href="#home" class="logo nav-container_logo" data-scroll>Charline Miranda</a>
-            <nav class="nav-collapse nav-container_list">
-                <ul>
-                    <li class="nav-container_list menu-item active"><a href="#home" data-scroll>Home</a></li>
-                    <li class="nav-container_list menu-item"><a href="#portfolio" data-scroll>Portfolio</a></li>
-                    <li class="nav-container_list menu-item"><a href="#apropos" data-scroll>A Propos</a></li>
-                    <li class="nav-container_list menu-item"><a href="#contact" data-scroll>Contact</a></li>
-                </ul>
-            </nav>
+        <nav class="nav">
+            <div class="nav_menu">
+                <div class="nav_menu_logo">
+                    <a href="index.php" class="nav_menu_logo_link">Charline Miranda</a>
+                </div>
+                <div class="nav_menu_icon">
+                    <img src="assets/images/icons/menu-media.png" alt="responsive menu icon" 
+                         class="nav_menu_icon_img menuIcon">
+                </div>
+            </div>
+            <ul class="nav_list">
+                <li class="nav_list_item active"><a href="#home" class="nav_list_item_link">Home</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#portfolio">Portfolio</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#apropos">A Propos</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        
+        <div class="portfolio">
+            <h1 class="portfolio_title">Portfolio</h1>
+            <hr class="portfolio_line">
+            <div class="portfolio_content">
+                <div class="portfolio_content_row">
+                    <div class="portfolio_content_row_item">
+                        <img src="assets/images/portfolio/1.png" alt="" class="portfolio_content_row_item_img">
+                        <div class="portfolio_content_row_item_full">
+                            <div class="portfolio_content_row_item_full_text">
+                                <h2 class="portfolio_content_row_item_full_text_title">From sound to life</h2>
+                                <p class="portfolio_content_row_item_full_text_paragraph">Installation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+<script src="assets/javascripts/jquery-2.2.2.min.js"></script>
 <script src="dist/javascripts/scripts.js"></script>
 </body>
 </html>

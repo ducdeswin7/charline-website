@@ -1,0 +1,1 @@
+!function(){var n=$(".menuIcon"),c=$(".nav_list");n.click(function(){c.toggleClass("displayNone")})}(jQuery);
