@@ -1,0 +1,114 @@
+.about-us {
+  width: 100%;
+  background: #f3f3f3;
+  padding-top: 3em;
+  margin-top: 4em;
+  &_title {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &_line {
+    width: 106px;
+    margin: 2em auto 4em;
+  }
+
+  &_content {
+    max-width: 1080px;
+    margin: 3em auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+    @include breakpoint(mobile) {
+      flex-direction: column;
+      align-items: center;
+    }
+    @include breakpoint(to-tablet) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    &_item {
+      width: 300px;
+      text-align: center;
+
+      @include breakpoint(to-tablet) {
+        margin-bottom: 4em;
+      }
+
+      &_circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #a4a4a4;
+        text-align: center;
+        line-height: 125px;
+        margin: 0 auto;
+
+      }
+      &_title {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 26px;
+        color: black;
+        line-height: 1.2;
+        letter-spacing: 6px;
+        width: 100%;
+        position: relative;
+        font-weight: 400;
+      }
+
+      &_list {
+        text-align: center;
+        font-size: 14px;
+        width: 250px;
+        margin: 30px auto;
+        color: #a4a4a4;
+        line-height: 26px;
+        letter-spacing: 0;
+        position: relative;
+        font-weight: 300;
+        &_item {
+
+        }
+      }
+    }
+  }
+
+  &_cv {
+
+    text-align: center;
+    max-width: 300px;
+    height: 100%;
+    margin: 2em auto 4em;
+    &_link {
+
+      margin: 25px auto;
+      margin-bottom: 120px;
+      line-height: 47px;
+      border: 1px solid white;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      display: block;
+      cursor: pointer;
+      font-size: 14px;
+      letter-spacing: 1px;
+      background: #a4a4a4;
+      transition: all .4s ease-in;
+      &:hover {
+        color: white;
+        background: #488ca7;
+        border: 1px solid #488ca7;
+        transition: all .4s ease-in;
+      }
+    }
+  }
+}
