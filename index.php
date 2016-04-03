@@ -233,9 +233,35 @@
             <hr class="contact_line"/>
 
             <div class="contact_content">
+                <div class="contact_content_form">
 
-                
-            </div>
+                    <form method="post" action="">
+
+                        <div class="contact_content_form_field_block">
+                            <div class="contact_content_form_field_block_item">
+                                <label for="name" class="contact_content_form_field_block_item_label">VOTRE NOM</label>
+                                <input name="name" class="contact_content_form_field_block_item_input" id="name" value="" />
+                            </div>
+    
+                            <div class="contact_content_form_field_block_item">
+                                <label for="email" class="contact_content_form_field_block_item_label">VOTRE E-MAIL</label>
+                                <input name="email" class="contact_content_form_field_block_item_input" id="email" value="" />
+                            </div>
+                        </div>
+
+                        <div class="contact_content_form_field">
+                            <label for="message" class="contact_content_form_field_label">MESSAGE</label>
+                            <textarea id="message" class="contact_content_form_field_textarea" name="message" ></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button class="submit" id="submit" name="submit" type="submit" value="ENVOYER">
+                        </div>
+
+                    </form>
+
+
+                </div>
         </section>
 
     </div>
