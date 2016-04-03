@@ -233,10 +233,13 @@
             <hr class="contact_line"/>
 
             <div class="contact_content">
+                <div class="contact_content_text">
+                    Pour me contacter, utilisez le formulaire ci-dessous ou envoyez moi un mail directement <br>
+                    <a target="_blank" class="contact_content_text_mail" href="mailto:charline.miranda@gmail.com">charline.miranda@gmail.com</a>
+                </div>
+
                 <div class="contact_content_form">
-
-                    <form method="post" action="">
-
+                    <form method="post" action="" id="form">
                         <div class="contact_content_form_field_block">
                             <div class="contact_content_form_field_block_item">
                                 <label for="name" class="contact_content_form_field_block_item_label">VOTRE NOM</label>
@@ -254,14 +257,25 @@
                             <textarea id="message" class="contact_content_form_field_textarea" name="message" ></textarea>
                         </div>
 
-                        <div class="button">
-                            <button class="submit" id="submit" name="submit" type="submit" value="ENVOYER">
+                        <div class="contact_content_form_button">
+                            <button type="submit" class="contact_content_form_button_submit" form="form" name="submit" value="Submit">ENVOYER</button>
                         </div>
-
                     </form>
-
-
                 </div>
+        </section>
+
+        <section class="footer">
+            <div class="logo">
+                <img src="img/logo-footer.png">
+            </div>
+            <div class="menu-footer">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="https://www.behance.net/charlinemiranda" target="blank">Behance</a>
+                <a href="https://fr.linkedin.com/pub/charline-miranda/9b/282/a28" target="blank">Linkedin</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="copyright">© 201-. Tous droits réservés. <strong>Charline Miranda</strong></div>
         </section>
 
     </div>
