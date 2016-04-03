@@ -8,14 +8,13 @@
     <meta name="description" content="Portfolio en ligne de Charline Miranda, designer de l'interaction et directeur artistique"/>
     <meta name="keywords" content="design, graphisme, charline, miranda, interaction, direction artistique, art direction"/>
     <meta name="author" content="Charline Miranda"/>
-
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <div class="container">
         <!-- landing page -->
-        <section class="landing">
+        <section class="landing" id="home">
             <div class="landing_opacity"></div> <!-- Opacity color -->
             <div class="landing_content">
                 <div class="landing_content_center">
@@ -51,13 +50,13 @@
             </ul>
         </nav>
         
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <h1 class="portfolio_title">Portfolio</h1>
             <hr class="portfolio_line">
             <div class="portfolio_content">
                 <div class="portfolio_content_row">
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/fromSoundToLife.php">
                             <img class="hoverme_img" src="assets/images/portfolio/1.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -176,7 +175,7 @@
             </div>
         </div>
 
-        <section class="about-us" id="about-us">
+        <section class="about-us" id="apropos">
             <h1 class="about-us_title">&Agrave; PROPOS</h1>
             <hr class="about-us_line"/>
             <!-- <p class="title">Passion&eacute;e de design</p> -->
@@ -228,7 +227,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <h1 class="contact_title">CONTACT</h1>
             <hr class="contact_line"/>
 
@@ -265,17 +264,17 @@
         </section>
 
         <section class="footer">
-            <div class="logo">
-                <img src="img/logo-footer.png">
+            <div class="footer_logo">
+                <img class="footer_logo_img" src="assets/images/logo-footer.png">
             </div>
-            <div class="menu-footer">
-                <a href="#home">Home</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="https://www.behance.net/charlinemiranda" target="blank">Behance</a>
-                <a href="https://fr.linkedin.com/pub/charline-miranda/9b/282/a28" target="blank">Linkedin</a>
-                <a href="#contact">Contact</a>
+            <div class="footer_menu">
+                <a class="footer_menu_item" href="#home">Home</a>
+                <a class="footer_menu_item" href="#portfolio">Portfolio</a>
+                <a class="footer_menu_item" href="https://www.behance.net/charlinemiranda" target="blank">Behance</a>
+                <a class="footer_menu_item" href="https://fr.linkedin.com/pub/charline-miranda/9b/282/a28" target="blank">Linkedin</a>
+                <a class="footer_menu_item" href="#contact">Contact</a>
             </div>
-            <div class="copyright">© 201-. Tous droits réservés. <strong>Charline Miranda</strong></div>
+            <p class="footer_copyright">© 2016 Tous droits réservés. <span class="footer_copyright_charline">Charline Miranda</span></p>
         </section>
 
     </div>

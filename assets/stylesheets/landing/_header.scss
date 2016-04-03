@@ -2,15 +2,25 @@
   background: #3c3c3c;
   width: 100%;
   box-sizing: border-box;
+  z-index: 100;
+  transition: all .5s ease;
 
+  &.main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: all .5s ease;
+  }
   @include breakpoint(tablet) {
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
     background: white;
+    transition: all .5s ease;
   }
   @include breakpoint(laptop) {
     padding: 0 150px;
+    transition: all .5s ease;
   }
   &_menu {
     height: 70px;
@@ -78,3 +88,4 @@
     }
   }
 }
+
