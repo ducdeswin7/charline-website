@@ -16,10 +16,10 @@
     <nav class="nav">
         <div class="nav_menu">
             <div class="nav_menu_logo">
-                <a href="index.php" class="nav_menu_logo_link">Charline Miranda</a>
+                <a href="../index.php" class="nav_menu_logo_link">Charline Miranda</a>
             </div>
             <div class="nav_menu_icon">
-                <img src="assets/images/icons/menu-media.png" alt="responsive menu icon"
+                <img src="../assets/images/icons/menu-media.png" alt="responsive menu icon"
                      class="nav_menu_icon_img menuIcon">
             </div>
         </div>

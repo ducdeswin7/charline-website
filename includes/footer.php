@@ -15,6 +15,6 @@
 
 </div>
 <script src="../assets/javascripts/jquery-2.2.2.min.js"></script>
-<script src="../dist/javascripts/scripts.js"></script>
+<script src="../assets/javascripts/script-portfolio.js"></script>
 </body>
 </html>

@@ -93,7 +93,7 @@
       margin: 25px auto;
       margin-bottom: 120px;
       line-height: 47px;
-      border: 1px solid white;
+      border: none;
       text-transform: uppercase;
       text-align: center;
       color: white;
@@ -106,7 +106,6 @@
       &:hover {
         color: white;
         background: #488ca7;
-        border: 1px solid #488ca7;
         transition: all .4s ease-in;
       }
     }

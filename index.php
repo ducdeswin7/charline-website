@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/dayDreamer.php">
                             <img class="hoverme_img" src="assets/images/portfolio/2.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -92,7 +92,7 @@
 
                 <div class="portfolio_content_row">
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/libra.php">
                             <img class="hoverme_img" src="assets/images/portfolio/4.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -128,7 +128,7 @@
 
                 <div class="portfolio_content_row">
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/brightLight.php">
                             <img class="hoverme_img" src="assets/images/portfolio/7.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
