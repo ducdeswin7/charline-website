@@ -1,7 +1,7 @@
 <?php include '../includes/header.php'; ?>
 
     <div class="portfolio-page">
-        <h1 class="portfolio-page_title">Libra</h1>
+        <h1 class="portfolio-page_title">Polaris</h1>
         <hr class="portfolio-page_line">
 
         <div class="portfolio-page_content">

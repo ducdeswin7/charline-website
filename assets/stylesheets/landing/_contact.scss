@@ -1,7 +1,7 @@
 .contact {
   width: 100%;
   padding-top: 0;
-  margin-top: 4em;
+  margin: 4em 0;
   &_title {
     font-size: 25px;
     color: black;
@@ -96,8 +96,7 @@
         text-align: center;
 
         &_submit {
-          margin: 25px auto;
-          margin-bottom: 120px;
+          margin: 26px auto 3em;
           line-height: 47px;
           text-transform: uppercase;
           text-align: center;
@@ -118,6 +117,23 @@
             transition: all .4s ease-in;
           }
         }
+      }
+
+      &_error {
+        line-height: 1.2rem;
+        font-size: 12px;
+        color: #c0392b;
+      }
+
+      &_success {
+        font-size: 12px;
+        line-height: 12px;
+        color: green;
+
+      }
+
+      &_error, &_success {
+        display: none;
       }
     }
     &_text {

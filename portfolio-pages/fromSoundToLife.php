@@ -27,7 +27,7 @@
         </div>
 
         <div class="portfolio-page_navigation">
-                <a class="portfolio-page_navigation_nav" href="../portfolio-pages/">Précédent</a>
+                <a class="portfolio-page_navigation_nav" href="../portfolio-pages/universe.php">Précédent</a>
                 <a class="portfolio-page_navigation_nav" href="../portfolio-pages/libra.php">Suivant</a>
         </div>
 

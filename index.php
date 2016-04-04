@@ -78,7 +78,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/driveFaster.php">
                             <img class="hoverme_img" src="assets/images/portfolio/3.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -103,7 +103,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/polaris.php">
                             <img class="hoverme_img" src="assets/images/portfolio/5.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -114,7 +114,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/spotify.php">
                             <img class="hoverme_img" src="assets/images/portfolio/6.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -139,7 +139,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/shoesme.php">
                             <img class="hoverme_img" src="assets/images/portfolio/8.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -150,7 +150,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/universe.php">
                             <img class="hoverme_img" src="assets/images/portfolio/9.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -161,7 +161,7 @@
                         </a>
                     </div>
                     <div class="hoverme">
-                        <a href="">
+                        <a href="portfolio-pages/affiche.php">
                             <img class="hoverme_img" src="assets/images/portfolio/11.png">
                             <div class="hoverme_content">
                                 <div class="hoverme_content_text">
@@ -238,27 +238,30 @@
                 </div>
 
                 <div class="contact_content_form">
-                    <form method="post" action="" id="form">
+                    <form method="post" name="contact" action="process.php" id="contact">
                         <div class="contact_content_form_field_block">
                             <div class="contact_content_form_field_block_item">
                                 <label for="name" class="contact_content_form_field_block_item_label">VOTRE NOM</label>
-                                <input name="name" class="contact_content_form_field_block_item_input" id="name" value="" />
+                                <input name="name" size="30" required class="contact_content_form_field_block_item_input" id="name" value="" />
                             </div>
     
                             <div class="contact_content_form_field_block_item">
                                 <label for="email" class="contact_content_form_field_block_item_label">VOTRE E-MAIL</label>
-                                <input name="email" class="contact_content_form_field_block_item_input" id="email" value="" />
+                                <input name="email" size="30" required class="contact_content_form_field_block_item_input" id="email" value="" />
                             </div>
                         </div>
 
                         <div class="contact_content_form_field">
                             <label for="message" class="contact_content_form_field_label">MESSAGE</label>
-                            <textarea id="message" class="contact_content_form_field_textarea" name="message" ></textarea>
+                            <textarea id="message" required class="contact_content_form_field_textarea" name="message" ></textarea>
                         </div>
 
+
                         <div class="contact_content_form_button">
-                            <button type="submit" class="contact_content_form_button_submit" form="form" name="submit" value="Submit">ENVOYER</button>
+                            <button type="submit" class="contact_content_form_button_submit" form="form" name="submit">ENVOYER</button>
                         </div>
+                            <p class="contact_content_form_success">Your message was sent succssfully! I will be in touch as soon as I can.</p>
+                            <p class="contact_content_form_error">Something went wrong, try refreshing and submitting the form again.</p>
                     </form>
                 </div>
         </section>

@@ -13,21 +13,21 @@
 </head>
 <body>
 <div class="container">
-    <nav class="nav">
-        <div class="nav_menu">
-            <div class="nav_menu_logo">
-                <a href="../index.php" class="nav_menu_logo_link">Charline Miranda</a>
+    <nav class="nav-portfolio">
+        <div class="nav-portfolio_menu">
+            <div class="nav-portfolio_menu_logo">
+                <a href="../index.php" class="nav-portfolio_menu_logo_link">Charline Miranda</a>
             </div>
-            <div class="nav_menu_icon">
+            <div class="nav-portfolio_menu_icon">
                 <img src="../assets/images/icons/menu-media.png" alt="responsive menu icon"
-                     class="nav_menu_icon_img menuIcon">
+                     class="nav-portfolio_menu_icon_img menuIcon">
             </div>
         </div>
-        <ul class="nav_list">
-            <li class="nav_list_item active"><a href="../index.php#home" class="nav_list_item_link">Home</a></li>
-            <li class="nav_list_item"><a class="nav_list_item_link" href="../index.php#portfolio">Portfolio</a></li>
-            <li class="nav_list_item"><a class="nav_list_item_link" href="../index.php#apropos">A Propos</a></li>
-            <li class="nav_list_item"><a class="nav_list_item_link" href="../index.php#contact">Contact</a></li>
+        <ul class="nav-portfolio_list">
+            <li class="nav-portfolio_list_item active"><a href="../index.php#home" class="nav-portfolio_list_item_link">Home</a></li>
+            <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#portfolio">Portfolio</a></li>
+            <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#apropos">A Propos</a></li>
+            <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#contact">Contact</a></li>
         </ul>
     </nav>
    

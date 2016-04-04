@@ -1,0 +1,1 @@
+!function(){var o=$(".menuIcon"),n=$(".nav-portfolio_list");o.click(function(){n.toggleClass("displayNone")}),$('a[href^="#"]').on("click",function(o){o.preventDefault();var n=this.hash,t=$(n);$("html, body").stop().animate({scrollTop:t.offset().top},900,"swing",function(){window.location.hash=n})})}(jQuery);

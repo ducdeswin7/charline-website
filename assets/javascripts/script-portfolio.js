@@ -1,7 +1,7 @@
 (function(){
     
     var menuIcon = $('.menuIcon'),
-        navList = $('.nav_list');
+        navList = $('.nav-portfolio_list');
 
     menuIcon.click(function() {
         navList.toggleClass('displayNone')

@@ -26,7 +26,7 @@
 
         <div class="portfolio-page_navigation">
                 <a class="portfolio-page_navigation_nav" href="../portfolio-pages/libra.php">Précédent</a>
-                <a class="portfolio-page_navigation_nav" href="../portfolio-pages/fromSoundToLife.php">Suivant</a>
+                <a class="portfolio-page_navigation_nav" href="../portfolio-pages/dayDreamer.php">Suivant</a>
         </div>
 
     </div>
