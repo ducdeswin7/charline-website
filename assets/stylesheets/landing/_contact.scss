@@ -23,6 +23,26 @@
     flex-direction: column;
     align-items: center;
 
+    .success{
+      background: #D8FFC0;
+      padding: 5px 10px 5px 10px;
+      margin: 0px 0px 5px 0px;
+      border: none;
+      font-weight: bold;
+      color: #2E6800;
+      border-left: 3px solid #2E6800;
+    }
+
+    .error {
+      background: #FFE8E8;
+      padding: 5px 10px 5px 10px;
+      margin: 0px 0px 5px 0px;
+      border: none;
+      font-weight: bold;
+      color: #FF0000;
+      border-left: 3px solid #FF0000;
+    }
+
     &_form {
       max-width: 437px;
       @include breakpoint(mobile) {
@@ -143,7 +163,7 @@
       line-height: 26px;
       text-align: center;
       font-weight: 300;
-
+      padding: 1em;
       &_mail {
         font-weight: 700;
         text-decoration: none;

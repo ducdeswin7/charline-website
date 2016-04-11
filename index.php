@@ -236,29 +236,29 @@
                     Pour me contacter, utilisez le formulaire ci-dessous ou envoyez moi un mail directement <br>
                     <a target="_blank" class="contact_content_text_mail" href="mailto:charline.miranda@gmail.com">charline.miranda@gmail.com</a>
                 </div>
-
-                <div class="contact_content_form">
+                <div id="contact_results"></div>
+                <div class="contact_content_form" id="contact_body">
                     <form method="post" name="contact" action="process.php" id="contact">
                         <div class="contact_content_form_field_block">
                             <div class="contact_content_form_field_block_item">
                                 <label for="name" class="contact_content_form_field_block_item_label">VOTRE NOM</label>
-                                <input name="name" size="30" required class="contact_content_form_field_block_item_input" id="name" value="" />
+                                <input name="name" size="30" require="true" class="contact_content_form_field_block_item_input" id="name" value="" />
                             </div>
     
                             <div class="contact_content_form_field_block_item">
                                 <label for="email" class="contact_content_form_field_block_item_label">VOTRE E-MAIL</label>
-                                <input name="email" size="30" required class="contact_content_form_field_block_item_input" id="email" value="" />
+                                <input name="email" size="30" require="true" class="contact_content_form_field_block_item_input" id="email" value="" />
                             </div>
                         </div>
 
                         <div class="contact_content_form_field">
                             <label for="message" class="contact_content_form_field_label">MESSAGE</label>
-                            <textarea id="message" required class="contact_content_form_field_textarea" name="message" ></textarea>
+                            <textarea id="message" require="true" class="contact_content_form_field_textarea" name="message" ></textarea>
                         </div>
 
 
                         <div class="contact_content_form_button">
-                            <button type="submit" class="contact_content_form_button_submit" form="form" name="submit">ENVOYER</button>
+                            <button type="submit" id="envoyer" class="contact_content_form_button_submit" form="form" name="submit">ENVOYER</button>
                         </div>
                             <p class="contact_content_form_success">Your message was sent succssfully! I will be in touch as soon as I can.</p>
                             <p class="contact_content_form_error">Something went wrong, try refreshing and submitting the form again.</p>
@@ -283,5 +283,6 @@
     </div>
 <script src="assets/javascripts/jquery-2.2.2.min.js"></script>
 <script src="dist/javascripts/scripts.js"></script>
+<script src="dist/javascripts/email.js"></script>
 </body>
 </html>
