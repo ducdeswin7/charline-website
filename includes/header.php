@@ -28,6 +28,7 @@
             <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#portfolio">Portfolio</a></li>
             <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#apropos">A Propos</a></li>
             <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" href="../index.php#contact">Contact</a></li>
+            <li class="nav-portfolio_list_item"><a class="nav-portfolio_list_item_link" target="_blank" href="http://medium.com/@charline.miranda">Blog</a></li>
         </ul>
     </nav>
    

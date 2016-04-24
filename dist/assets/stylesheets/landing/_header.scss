@@ -94,14 +94,4 @@
 
 .menu_active {
   border-bottom: 3px solid #488ca7;
-
-  @include breakpoint(to-tablet) {
-    border-bottom: 0;
-  }
-  a {
-    @include breakpoint(to-tablet) {
-      color: rgb(72, 140, 167);
-      font-weight: 700;
-    }
-  }
 }

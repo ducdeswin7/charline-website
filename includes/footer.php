@@ -9,6 +9,7 @@
         <a class="footer_menu_item" href="https://www.behance.net/charlinemiranda" target="blank">Behance</a>
         <a class="footer_menu_item" href="https://fr.linkedin.com/pub/charline-miranda/9b/282/a28" target="blank">Linkedin</a>
         <a class="footer_menu_item" href="../index.php#contact">Contact</a>
+        <a class="footer_menu_item" href="http://medium.com/@charline.miranda" target="_blank">Blog</a>
     </div>
     <p class="footer_copyright">© 2016 Tous droits réservés. <span class="footer_copyright_charline">Charline Miranda</span></p>
 </section>

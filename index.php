@@ -47,6 +47,7 @@
                 <li class="nav_list_item"><a class="nav_list_item_link" href="#portfolio">Portfolio</a></li>
                 <li class="nav_list_item"><a class="nav_list_item_link" href="#apropos">A Propos</a></li>
                 <li class="nav_list_item"><a class="nav_list_item_link" href="#contact">Contact</a></li>
+                <li class="nav_list_item"><a target="_blank" class="nav_list_item_link" href="http://medium.com/@charline.miranda">Blog</a></li>
             </ul>
         </nav>
 
@@ -209,7 +210,7 @@
                     <ul class="about-us_content_item_list">
                         <li class="about-us_content_item_list_item">2015 | exposition lors du festival Exit, <br>à la Maison des Arts de Créteil</li>
                         <li class="about-us_content_item_list_item">2014 | stage de 4 mois<br> assistante DA, agence Australie</li>
-                        <li class="about-us_content_item_list_item">014 | stage de 6 mois<br> assistance DA, agence Marquise Contents</li>
+                        <li class="about-us_content_item_list_item">2014 | stage de 6 mois<br> assistance DA, agence Marquise Contents</li>
                     </ul>
                 </div>
 
@@ -284,6 +285,7 @@
                 <a class="footer_menu_item" href="https://www.behance.net/charlinemiranda" target="blank">Behance</a>
                 <a class="footer_menu_item" href="https://fr.linkedin.com/pub/charline-miranda/9b/282/a28" target="blank">Linkedin</a>
                 <a class="footer_menu_item" href="#contact">Contact</a>
+                <a class="footer_menu_item" target="_blank" href="http://medium.com/@charline.miranda">Blog</a>
             </div>
             <p class="footer_copyright">© 2016 Tous droits réservés. <span class="footer_copyright_charline">Charline Miranda</span></p>
         </section>

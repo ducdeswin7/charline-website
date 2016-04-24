@@ -28,12 +28,9 @@
         var target = this.hash;
         var $target = $(target);
 
-        navList.removeClass('displayNone');
-
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 1000, 'swing', function () {
-
+        }, 900, 'swing', function () {
             window.location.hash = target;
         });
     });
