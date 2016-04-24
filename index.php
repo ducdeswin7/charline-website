@@ -49,8 +49,10 @@
                 <li class="nav_list_item"><a class="nav_list_item_link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        
-        <div class="portfolio" id="portfolio">
+
+        <div class="portfolio_marge"  id="portfolio"></div>
+
+        <div class="portfolio">
             <h1 class="portfolio_title">Portfolio</h1>
             <hr class="portfolio_line">
             <div class="portfolio_content">
@@ -176,6 +178,9 @@
         </div>
 
         <section class="about-us" id="apropos">
+            <br>
+            <br>
+            <br>
             <h1 class="about-us_title">&Agrave; PROPOS</h1>
             <hr class="about-us_line"/>
             <!-- <p class="title">Passion&eacute;e de design</p> -->
@@ -228,6 +233,9 @@
         </section>
 
         <section class="contact" id="contact">
+            <br>
+            <br>
+            <br>
             <h1 class="contact_title">CONTACT</h1>
             <hr class="contact_line"/>
 

@@ -1,6 +1,10 @@
 .portfolio-page {
   background: white;
   padding-top: 4em;
+
+  @include breakpoint(mobile) {
+    margin-bottom: 3em;
+  }
   &_title {
     font-size: 25px;
     color: black;
@@ -35,11 +39,9 @@
     &_image {
       width: 100%;
       margin-bottom: 3em;
-      @include breakpoint(mobile) {
-        order: 1;
-      }
+
       @include breakpoint(to-tablet) {
-        order: 1;
+        margin-bottom: -2em;
       }
       &_img {
         width: 100%;
@@ -61,11 +63,11 @@
         color: #3c3c3c;
         position: relative;
         font-weight: bold;
-        margin: 1em 0;
+        margin: 2em 0 1em;
       }
 
       &_text {
-        margin-top: .6em;
+        margin-top: 0;
         text-align: left;
         font-size: 14px;
         color: #3c3c3c;
@@ -104,7 +106,7 @@
 
       @include breakpoint(mobile) {
         flex-direction: column;
-        margin: 25px auto 50px;
+        margin: 25px auto 5px;
       }
       &:hover {
         color: white;
